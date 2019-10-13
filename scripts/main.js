@@ -5,6 +5,7 @@ audioElement.setAttribute("controls", "controls");
 var audioSource = document.createElement("source");
 audioSource.setAttribute("src", "media/sound-effects.mp3");
 
+let main = document.getElementById("main");
 let animState = 0;
 let currentAnimation = 0;
 let svgContainer = document.getElementById("svgContainer");
@@ -23,7 +24,7 @@ let maskBottom = document.querySelector("#maskButton");
 let backButton = document.querySelector("#backButton");
 
 function loadAudio() {
-  svgContainer.appendChild(audioElement);
+  main.appendChild(audioElement);
   audioElement.appendChild(audioSource);
 
   setTimeout(function() {
@@ -42,7 +43,7 @@ let backgroundShapesAnim = bodymovin.loadAnimation({
   wrapper: svgContainer,
   animType: "svg",
   autoplay: false,
-  path: "./data-v10.json"
+  path: "../data-v10.json"
 });
 
 backgroundShapesAnim.addEventListener("DOMLoaded", () => {
