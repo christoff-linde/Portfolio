@@ -187,14 +187,11 @@ function backButtonClicked() {
 
 function gotToProject() {
   if (currentAnimation == 1) {
-    console.log("goToAnimation for theme0" + currentAnimation);
-    window.location.assign("../theme03/index.html");
+    window.location.assign("theme03/index.html");
   } else if (currentAnimation == 4) {
-    console.log("goToAnimation for theme0" + currentAnimation);
-    window.location.assign("../theme02/index.html");
+    window.location.assign("theme02/index.html");
   } else if (currentAnimation == 3) {
-    console.log("goToAnimation for theme0" + currentAnimation);
-    window.location.assign("../theme01/index.html");
+    window.location.assign("theme01/index.html");
   }
 }
 
