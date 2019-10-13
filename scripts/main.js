@@ -42,7 +42,7 @@ let backgroundShapesAnim = bodymovin.loadAnimation({
   wrapper: svgContainer,
   animType: "svg",
   autoplay: false,
-  path: "../data-v10.json"
+  path: "./data-v10.json"
 });
 
 backgroundShapesAnim.addEventListener("DOMLoaded", () => {
