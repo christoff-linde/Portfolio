@@ -1,0 +1,158 @@
+$maxWidth: 1000px;
+$darkBlue: #1d2733;
+$pureWhite: #ffffff;
+$darkGrey: #383838;
+$lightGrey: #9fa4aa;
+$lightBlue: #6aadff;
+
+html {
+  font-size: 2vw;
+/*   text-align: center; */
+  color: #ffffff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1d2733; 
+}
+
+nav {
+  padding: 10px 10px 10px 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+#backToMenu {
+  font-family: "Montserrat";
+  font-size: 1.2vw;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.4s color ease;
+  text-decoration: none;
+  color: $pureWhite;
+  font-size: 2vw;
+}
+
+a:hover {
+  color: $lightBlue;
+  cursor: pointer;
+}
+
+a.before:before,
+a.after:after {
+  content: "";
+  transition: 0.4s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+a.before:before {
+  top: -0.25em;
+}
+
+a.after:after {
+  bottom: -0.25em;
+}
+
+a.before:before,
+a.after:after {
+  height: 5px;
+  height: 0.1rem;
+  width: 0;
+  background: $lightBlue;
+}
+
+a.first:after {
+  left: 0;
+}
+
+a.second:after {
+  right: 0;
+}
+
+a.before:hover:before,
+a.after:hover:after {
+  width: 100%;
+}
+
+h1 { 
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 130%;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 100%;
+  font-weight: 500;
+  color: white;
+}
+
+div {
+  margin: 0 auto;
+  width: $maxWidth;
+  max-width: 100%;
+  padding-bottom: 25px;
+}
+
+p {
+  text-align: left;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 80%;
+}
+
+#form {
+  background-color: #1d2733;
+  width: 100%;
+  max-width: $maxWidth;
+}
+
+svg {
+  width: 100%;
+  max-width: $maxWidth;
+}
+
+table {
+  text-align: left;
+}
+
+th {
+  font-family: "Lato";
+  font-weight: 400;
+  width: 25%;
+  padding: 0px 0px 25px 0px;
+}
+
+td {
+  font-family: "Lato";
+  font-weight: 300;
+  padding: 0px 0px 25px 0px;
+}
+
+#logo-link {
+  color: white;
+  transition: color 0.6s;
+  font-size: 2vw;
+}
+
+#logo-link:hover {
+  color: $lightBlue;
+}

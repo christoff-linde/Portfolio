@@ -1,0 +1,149 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  background: #383838;
+  overflow: hidden;
+}
+
+.draggable:hover {
+  cursor: pointer;
+}
+
+#circle01 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle02 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle03 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle04 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle05 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle06 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle07 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle08 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle09 {
+  -webkit-transition: fill 0.6s;
+  transition: fill 0.6s;
+  -webkit-transition: stroke-width 0.6s;
+  transition: stroke-width 0.6s;
+}
+
+#circle01:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle02:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle03:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle04:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle05:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle06:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle07:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle08:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#circle09:hover {
+  cursor: pointer;
+  stroke-width: 6px;
+}
+
+#helpCircle:hover {
+  cursor: pointer;
+  fill: #383838;
+}
+
+#help:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=bridgeScreen.css.map */

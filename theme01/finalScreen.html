@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/finalScreen/finalScreen.css"
+    />
+  </head>
+  <body id="mainDocument">
+    <script src="lottie.js"></script>
+
+    <script>
+      var animation = bodymovin.loadAnimation({
+        container: document.getElementById("mainDocument"),
+        renderer: "svg",
+        loop: false,
+        autoplay: true,
+        path: "data.json"
+      });
+
+      animation.addEventListener("complete", animationComplete);
+
+      function animationComplete() {
+        console.log("animationComplete");
+         setTimeout(function() {
+          window.location.assign("menu.html");
+        }, 3000); 
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+  </body>
+</html>

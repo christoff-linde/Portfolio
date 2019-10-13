@@ -1,0 +1,145 @@
+$startLettersMaxHeight: 50px;
+$sliderCircleColor: #1d2733;
+
+$paletteColorOne: #dadee3;
+$paletteColorTwo: #9fa4aa;
+$paletteColorThree: #56606d;
+$paletteColorFour: #2e3d50;
+$paletteColorFive: #1d2733;
+$startTextFill: rgba(218, 222, 227, 1);
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+h3 {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+blockquote {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+pre {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+div.absolute {
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 34%;
+  width: 32%;
+  height: 5%;
+  border: 0px solid #73ad21;
+  border-radius: 2em;
+
+  p {
+    font-family: "Open Sans";
+    font-size: 1.5vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+}
+
+div.absolute:hover {
+    border-color: white;
+}
+
+.clickInstructions {
+    opacity: 0.6;
+    fill: rgb(255, 255, 255);
+    transform: matrix(1,0,0,1,0,0);
+    overflow: visible;
+    top: 955.005859375px;
+    left: 883.40380859375px;
+    width: 154.49462890625px;
+    height: 19.23828125px;
+    transition: opacity 0.6s;
+}
+
+.clickInstructions:hover {
+    opacity: 1;
+}
+
+.mainContainer {
+  background-color: #1d2733;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  .S {
+    max-height: $startLettersMaxHeight;
+    height: 10vh;
+    width: 10vw;
+    fill: $startTextFill;
+  }
+
+  .T01 {
+    max-height: $startLettersMaxHeight;
+    height: 10vh;
+    width: 10vw;
+    fill: $startTextFill;
+  }
+
+  .A {
+    max-height: $startLettersMaxHeight;
+    height: 10vh;
+    width: 10vw;
+    fill: $startTextFill;
+  }
+
+  .R {
+    max-height: $startLettersMaxHeight;
+    height: 10vh;
+    width: 10vw;
+    fill: $startTextFill;
+  }
+
+  .T02 {
+    max-height: $startLettersMaxHeight;
+    height: 10vh;
+    width: 10vw;
+    fill: $startTextFill;
+  }
+}
