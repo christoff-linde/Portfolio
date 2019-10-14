@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004" height="964" viewBox="0 0 1004 964">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c1c1c;
+        stroke: #4e4e4e;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-7, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-3, .cls-4, .cls-9 {
+        font-size: 18px;
+      }
+
+      .cls-3 {
+        font-family: OpenSans-Semibold, Open Sans;
+        font-weight: 600;
+      }
+
+      .cls-5 {
+        fill: #4e4e4e;
+      }
+
+      .cls-6 {
+        fill: #484440;
+      }
+
+      .cls-7 {
+        font-size: 22px;
+      }
+
+      .cls-7, .cls-9 {
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        fill: #e55d1e;
+      }
+
+      .cls-10 {
+        fill: #22c8de;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="email" transform="translate(-138 -58)">
+    <g id="Rectangle_72" data-name="Rectangle 72" class="cls-1" transform="translate(138 58)">
+      <rect class="cls-11" width="1004" height="964"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="1003" height="963"/>
+    </g>
+    <text id="Confirm_your_Subscription_" data-name="Confirm_your_Subscription!" class="cls-2" transform="translate(594 122)"><tspan x="-386.953" y="0">Confirm_your_Subscription!</tspan></text>
+    <text id="BDSF3Z4..._k0hasqnt18ew3cphruswox7qjxdngd.net" data-name="BDSF3Z4...@k0hasqnt18ew3cphruswox7qjxdngd.net" class="cls-3" transform="translate(433 185)"><tspan x="-226.257" y="0">BDSF3Z4...@k0hasqnt18ew3cphruswox7qjxdngd.net</tspan></text>
+    <text id="May_10_2019_12:44_PM_1_day_ago_" data-name="May 10, 2019 12:44 PM (1 day ago)" class="cls-4" transform="translate(928 185)"><tspan x="-144.536" y="0">May 10, 2019 12:44 PM (1 day ago)</tspan></text>
+    <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-5" width="664" height="319.627" transform="translate(308 387)"/>
+    <rect id="Rectangle_73" data-name="Rectangle 73" class="cls-5" width="866" height="90" transform="translate(207 224)"/>
+    <text id="This_message_is_in_spam" data-name="This message is in spam" class="cls-4" transform="translate(324 257)"><tspan x="-100.973" y="0">This message is in spam</tspan></text>
+    <g id="Group_42" data-name="Group 42" transform="translate(-1 4)">
+      <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-6" width="170" height="31" transform="translate(224 265)"/>
+      <text id="Report_not_spam" data-name="Report not spam" class="cls-4" transform="translate(309 288)"><tspan x="-70.414" y="0">Report not spam</tspan></text>
+    </g>
+    <g id="Group_44" data-name="Group 44" transform="translate(-16 27)">
+      <text id="Please_confirm_your_Subscription_" data-name="Please confirm your Subscription!" class="cls-7" transform="translate(561 410)"><tspan x="-184.347" y="0">Please confirm your Subscription!</tspan></text>
+      <text id="Dear_subscriber_We_are_updating_our_databases._Please_give_us_your_email_address_and_credit_card_details._We_want_to_send_you_free_stuff_" data-name="Dear subscriber,
+We are updating our databases. Please give us your email address
+and credit card details.
+
+We want to send you free stuff!" class="cls-4" transform="translate(377 455)"><tspan x="0" y="0">Dear subscriber,</tspan><tspan x="0" y="24">We are updating our databases. Please give us your email address</tspan><tspan x="0" y="48">and credit card details.</tspan><tspan x="0" y="72"></tspan><tspan x="0" y="96">We want to send you free stuff!</tspan></text>
+    </g>
+    <g id="Group_90" data-name="Group 90" transform="translate(0 16)">
+      <rect id="Rectangle_75" data-name="Rectangle 75" class="cls-8" width="239" height="50" transform="translate(377 605)"/>
+      <text id="Keep_my_Subscription" class="cls-9" transform="translate(397 637)"><tspan x="0" y="0">Keep_my_Subscription</tspan></text>
+    </g>
+    <g id="Group_91" data-name="Group 91" transform="translate(0 16)">
+      <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-10" width="239" height="50" transform="translate(664 605)"/>
+      <text id="Unsubscribe" class="cls-9" transform="translate(728 637)"><tspan x="0" y="0">Unsubscribe</tspan></text>
+    </g>
+  </g>
+</svg>

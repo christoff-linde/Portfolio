@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="153" viewBox="0 0 500 153">
+   <defs>
+      <style>.a{fill:#e55d1e;font-size:36px;font-family:BebasNeue, Bebas Neue;letter-spacing:0.065em;}.b{font-size:95px;font-family:BebasNeueBold, Bebas Neue;letter-spacing:0.01em;}</style>
+   </defs>
+   <text class="a" transform="translate(250 32)">
+      <tspan x="-248.094" y="0">IS YOUR BUSINESS PROTECTED AGAINST</tspan>
+      <tspan class="b">
+         <tspan x="-249.327" y="92">CYBER ATTACKS?</tspan>
+      </tspan>
+   </text>
+</svg>
