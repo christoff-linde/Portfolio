@@ -1,0 +1,336 @@
+body {
+  font-family: 'bebas_regular', Fallback, sans-serif;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+.flex-container-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100vw;
+  width: 100%;
+  height: 98vh;
+}
+
+.phone {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.icon-white {
+  fill: #ffffff;
+  fill-opacity: 0;
+  -webkit-transition: fill-opacity 1s ease;
+  transition: fill-opacity 1s ease;
+}
+
+.icon-white path {
+  stroke: #ffffff;
+  stroke-width: 2px;
+}
+
+.icon-white:hover {
+  cursor: pointer;
+}
+
+.icon-white:hover path {
+  fill-opacity: 1;
+}
+
+@font-face {
+  font-family: bebas_regular;
+  src: url(fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: open_sans_light;
+  src: url(fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: open_sans_regular;
+  src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: open_sans_SemiBold;
+  src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: roboto_thin;
+  src: url(fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: roboto_regular;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+h1 {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-family: bebas_regular;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 400%;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.orange {
+  color: #e55d1e;
+}
+
+.green {
+  color: #26f330;
+}
+
+.red {
+  color: #e31019;
+}
+
+.purple {
+  color: #663377;
+}
+
+.vertical-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vertical-heading h1, .vertical-heading h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.vertical-heading h2 {
+  letter-spacing: 0.145em;
+}
+
+.btn {
+  max-width: 100px;
+  width: 100%;
+  padding: 10px;
+  margin: 0px 10px 5px 10px;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+}
+
+.submit_btn:hover rect {
+  fill: #553399;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.flex-item-list {
+  padding: 0 40px 0 40px;
+}
+
+#yes-item {
+  letter-spacing: 3px;
+}
+
+#no-item {
+  letter-spacing: 3px;
+}
+
+a {
+  font-size: 350%;
+  font-weight: 700;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  -webkit-transition: 0.4s color ease;
+  transition: 0.4s color ease;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.first:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+a.second:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+a.before:before,
+a.after:after {
+  content: "";
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+a.before:before {
+  top: -0.25em;
+}
+
+a.after:after {
+  bottom: -0.25em;
+}
+
+a.before:before,
+a.after:after {
+  height: 8px;
+  height: 0.5rem;
+  width: 0;
+}
+
+a.first:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #ffffff;
+}
+
+a.second:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #ffffff;
+}
+
+a.before:hover:before,
+a.after:hover:after {
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  fill: #e55d1e;
+  opacity: 0.9;
+}
+
+.card:hover path#bottom {
+  fill: #e55d1e;
+}
+
+.card:hover path#top {
+  fill: #e55d1e;
+  opacity: 0.5;
+}
+
+.card:hover path#home {
+  fill: rebeccapurple;
+  stroke-width: 3px;
+  stroke: rebeccapurple;
+}
+
+.card:hover path.icon {
+  fill: #e55d1e;
+}
+
+.pw_card:hover {
+  cursor: pointer;
+}
+
+.pw_card:hover rect {
+  fill: white;
+}
+
+#exit_button.button:hover rect, #download_button.button:hover rect {
+  cursor: pointer;
+  fill: #c7a68c;
+}
+
+#exit_button.button:hover text, #download_button.button:hover text {
+  cursor: pointer;
+}
+
+#clickMe_button.button:hover rect, #hideIP_button.button:hover rect {
+  cursor: pointer;
+  fill-opacity: 0.8;
+}
+
+#clickMe_button.button:hover text, #hideIP_button.button:hover text {
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover#yes_btn rect {
+  fill: red;
+}
+
+.button:hover#no_btn rect {
+  fill: red;
+}
+
+#email_container {
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#spam_message_container > svg {
+  max-width: 100%;
+}
+
+#sheets_container {
+  margin: 0 auto;
+}
+
+#sheets_button {
+  margin: 0 auto;
+}
+
+#button_container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
