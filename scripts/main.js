@@ -27,7 +27,7 @@ function loadAudio() {
   main.appendChild(audioElement);
   audioElement.appendChild(audioSource);
 
-  setTimeout(function() {
+  setTimeout(function () {
     audioElement.pause();
     audioElement.load();
     audioElement.play();
@@ -71,14 +71,14 @@ function theme01Clicked() {
   // playAnimationSegment(480, 540);
   if (animState == 1) {
     backgroundShapesAnim.playSegments([6030, 6060], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([480, 540], true);
     }, 500);
     animState++;
     removeEventListeners(1);
   } else if (animState == 2) {
     backgroundShapesAnim.playSegments([540, 600], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
@@ -91,14 +91,14 @@ function theme02Clicked() {
   // playAnimationSegment(360, 420);
   if (animState == 1) {
     backgroundShapesAnim.playSegments([6030, 6060], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([360, 420], true);
     }, 500);
     animState++;
     removeEventListeners(2);
   } else if (animState == 2) {
     backgroundShapesAnim.playSegments([420, 360], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
@@ -111,14 +111,14 @@ function theme03Clicked() {
   // playAnimationSegment(120, 180);
   if (animState == 1) {
     backgroundShapesAnim.playSegments([6030, 6060], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([120, 180], true);
     }, 500);
     animState++;
     removeEventListeners(3);
   } else if (animState == 2) {
     backgroundShapesAnim.playSegments([180, 240], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
@@ -131,14 +131,14 @@ function theme04Clicked() {
   // playAnimationSegment(240, 300);
   if (animState == 1) {
     backgroundShapesAnim.playSegments([6030, 6060], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([240, 300], true);
     }, 500);
     animState++;
     removeEventListeners(4);
   } else if (animState == 2) {
     backgroundShapesAnim.playSegments([300, 360], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
@@ -151,33 +151,33 @@ function backButtonClicked() {
   if (currentAnimation == 0) {
     backgroundShapesAnim.playSegments([6030, 6060], true);
     animState--;
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([0, 120], true);
     }, 500);
   } else if (currentAnimation == 1) {
     backgroundShapesAnim.playSegments([540, 600], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
     addEventListeners();
   } else if (currentAnimation == 2) {
     backgroundShapesAnim.playSegments([420, 360], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
     addEventListeners();
   } else if (currentAnimation == 3) {
     backgroundShapesAnim.playSegments([180, 240], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
     addEventListeners();
   } else if (currentAnimation == 4) {
     backgroundShapesAnim.playSegments([300, 360], true);
-    setTimeout(function() {
+    setTimeout(function () {
       backgroundShapesAnim.playSegments([6000, 6030], true);
     }, 1000);
     animState--;
@@ -185,13 +185,23 @@ function backButtonClicked() {
   }
 }
 
+// function gotToProject() {
+//   if (currentAnimation == 1) {
+//     window.location.assign("https://christoff-linde.github.io/portfolio/theme03/index.html");
+//   } else if (currentAnimation == 4) {
+//     window.location.assign("https://christoff-linde.github.io/portfolio/theme02/index.html");
+//   } else if (currentAnimation == 3) {
+//     window.location.assign("https://christoff-linde.github.io/portfolio/theme01/index.html");
+//   }
+// }
+
 function gotToProject() {
   if (currentAnimation == 1) {
-    window.location.assign("https://christoff-linde.github.io/portfolio/theme03/index.html");
+    window.location.assign("../theme03/index.html");
   } else if (currentAnimation == 4) {
-    window.location.assign("https://christoff-linde.github.io/portfolio/theme02/index.html");
+    window.location.assign("../theme02/index.html");
   } else if (currentAnimation == 3) {
-    window.location.assign("https://christoff-linde.github.io/portfolio/theme01/index.html");
+    window.location.assign("../theme01/index.html");
   }
 }
 
