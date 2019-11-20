@@ -209,29 +209,6 @@ function gotToProject() {
 // }
 // }
 
-// function playAnimationSegment(segment1, segment2) {
-//   if (animState == 0) {
-//     console.log(animState);
-//     backgroundShapesAnim.playSegments([segment1, segment2], true);
-//     addEventListeners();
-//     animState++;
-//   } else if (animState == 1) {
-//     console.log(animState);
-//     backgroundShapesAnim.playSegments([6030, 6000], true);
-//     setTimeout(function() {
-//       backgroundShapesAnim.playSegments([segment1, segment2], true);
-//     }, 500);
-//     backgroundShapesAnim.playSegments([segment1, segment2], true);
-//     animState++;
-//   } else if (animState == 2) {
-//     console.log(animState);
-//     backgroundShapesAnim.playSegments([6000, 6030], true);
-//     setTimeout(function() {}, 1000);
-//     backgroundShapesAnim.playSegments([segment2, segment1], true);
-//     animState--;
-//   }
-// }
-
 function removeEventListeners(currentEventListener) {
   if (currentEventListener == 1) {
     theme02Container.removeEventListener("click", theme02Clicked);
