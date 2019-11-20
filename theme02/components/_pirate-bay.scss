@@ -1,0 +1,19 @@
+#exit_button.button:hover, #download_button.button:hover  {
+   rect {
+      cursor: pointer;
+      fill: #c7a68c;
+   }
+   text {
+      cursor: pointer;
+   }
+}
+
+#clickMe_button.button:hover, #hideIP_button.button:hover  {
+   rect {
+      cursor: pointer;
+      fill-opacity: 0.8;
+   }
+   text {
+      cursor: pointer;
+   }
+}

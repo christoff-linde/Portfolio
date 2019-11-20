@@ -1,0 +1,29 @@
+.card:hover {
+  cursor: pointer;
+  fill: $orange;
+  opacity: 0.9;
+
+  path#bottom {
+    fill: $orange;
+  }
+  path#top {
+    fill: $orange;
+    opacity: 0.5;
+  }
+  path#home {
+    fill: rebeccapurple;
+    stroke-width: 3px;
+    stroke: rebeccapurple;
+  }
+
+  path.icon {
+    fill: $orange;
+  }
+}
+
+.pw_card:hover {
+  cursor: pointer;
+  rect {
+    fill: rgba(255,255,255,1);
+  }
+}

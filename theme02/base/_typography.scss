@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// Basic typography style for copy text
+// -----------------------------------------------------------------------------
+
+h1 {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: $h1;
+}
+
+.white {
+  color: $white;
+}
+
+.orange {
+  color: $orange;
+}
+
+.green {
+  color: $green;
+}
+
+.red {
+  color: $red;
+}
+
+.purple {
+  color: $purple;
+}
+
+.vertical-heading {
+  display: flex;
+  flex-direction: column;
+
+  h1, h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h2 {
+    letter-spacing: 0.145em;
+  }
+}
+
+// .vertical-heading {
+//   margin: 0px;
+//   padding: 0px;
+// }

@@ -24,6 +24,7 @@ h1 {
   font-weight: 700;
   line-height: 23px;
 }
+
 h3 {
   font-family: "Open Sans";
   font-size: 17px;
@@ -81,23 +82,23 @@ div.absolute {
 }
 
 div.absolute:hover {
-    border-color: white;
+  border-color: white;
 }
 
 .clickInstructions {
-    opacity: 0.6;
-    fill: rgb(255, 255, 255);
-    transform: matrix(1,0,0,1,0,0);
-    overflow: visible;
-    top: 955.005859375px;
-    left: 883.40380859375px;
-    width: 154.49462890625px;
-    height: 19.23828125px;
-    transition: opacity 0.6s;
+  opacity: 0.6;
+  fill: rgb(255, 255, 255);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  overflow: visible;
+  top: 955.005859375px;
+  left: 883.40380859375px;
+  width: 154.49462890625px;
+  height: 19.23828125px;
+  transition: opacity 0.6s;
 }
 
 .clickInstructions:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .mainContainer {

@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn {
+  max-width: 100px;
+  width: 100%;
+  padding: 10px;
+  margin: 0px 10px 5px 10px;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+
+  rect {
+    fill: #553399;
+  }
+}
