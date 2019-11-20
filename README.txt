@@ -1,10 +1,10 @@
 DEAR MARKER
 
-I have included a link to ny portfolio website. It is the same as the files submitted,
-however it is easier to just open the link. Also, please ensure you are connected to the internet
-before viewing the website.
+Due to limitations of modern browsers, the usage of a localhost server is needed. I have also included a link to my portfolio website, hosted on GitHub.
+It is the exact same as the files submitted, and it can be used only as a backup copy of the website.
+Also, please ensure you are connected to the internet before viewing the website.
 
-If you do not want to use the link, please follow the following steps to ensure that
+If you are note using a localhost server OR the link, please follow the following steps to ensure that
 everything works properly:
 
 Firefox recently changed a default setting that prevents the browser from reading the website unless it is hosted on a actual server.
